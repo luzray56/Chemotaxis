@@ -4,7 +4,7 @@ void setup()
 {
   textAlign(CENTER);
   size(600,600);
-  bob = new Bacteria[25];
+  bob = new Bacteria[35];
   for(int i=0; i < bob.length; i++)
     bob[i] = new Bacteria();
 }
@@ -20,7 +20,7 @@ void draw()
   ellipse(mouseX, mouseY-10, 50, 50);
   fill(131,18,6);
   if (lowell == 0)
-    text("A", mouseX+2, mouseY-5);
+    text("5.0 GPA", mouseX+2, mouseY-5);
   if (lowell == 1)
     text("Stanford", mouseX+2, mouseY-5);
   if (lowell == 2)
